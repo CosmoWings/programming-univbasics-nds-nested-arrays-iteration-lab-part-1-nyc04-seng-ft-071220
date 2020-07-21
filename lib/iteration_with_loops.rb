@@ -10,9 +10,9 @@ def find_even_values(src)
   
   src.each do |nested_array|
     nested_array.each do |element|
-      new_array.push(element)
+      if element.even?
+        new_array.push(element)
   end
   
-  #run even? method on new_array
 
 end
