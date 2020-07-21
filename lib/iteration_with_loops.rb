@@ -15,6 +15,8 @@ def find_even_values(src)
       end
     end
   end
-  new_array
+  new_array.each do |element|
+    puts element
+  end
 
 end
