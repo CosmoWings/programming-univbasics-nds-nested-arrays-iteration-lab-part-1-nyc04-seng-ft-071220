@@ -13,6 +13,6 @@ def find_even_values(src)
       if element.even?
         new_array.push(element)
   end
-  
+  new_array
 
 end
