@@ -12,6 +12,8 @@ def find_even_values(src)
     nested_array.each do |element|
       if element.even?
         new_array.push(element)
+      end
+    end
   end
   new_array
 
